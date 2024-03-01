@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: arial;
+    font-size: 1.2rem;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section
+{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+    width: 700px;
+    border: 2px solid black;  
+    background: #fffacb;  
+}
+
+div
+{
+    margin: 10px;    
+}
+
+#numTab
+{
+    width: 80px;
+    color: #ff7f50;
+}
+
+
+#titulo
+{
+    font-size: 1.8rem;
+    color: #ff7f50;
+}
+
+#botao
+{
+    background: #20b2aa;
+    color: #000000;
+    transition: 0.4s;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+
+#botao:hover
+{
+    background: #ff7f50;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+#seleTab
+{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: hsla(177, 70%, 41%, 0.184);    
+}
+
+option
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#msg
+{
+    color: #ff7f50;
+}
+
+#assinatura
+{
+    font-style: italic;
+    font-size: 1rem;
+}
